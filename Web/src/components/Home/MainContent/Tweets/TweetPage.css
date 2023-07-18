@@ -1,0 +1,56 @@
+.reply-box-container {
+  display: flex;
+}
+
+.user-profile-img {
+  height: 50px;
+  width: 50px;
+  border: solid 1px #505050;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.reply-box {
+  margin: 15px;
+  padding: 0px;
+  width: 500px;
+}
+
+.reply-box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comentar-tweet {
+  border-bottom: solid 1px #505050;
+}
+
+.comentar-tweet input {
+  background-color: transparent !important;
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: none;
+  border: none !important;
+  color: white;
+}
+
+.comment-button {
+  height: 36px;
+  width: 75px;
+  text-align: center;
+  border: none !important;
+  border-radius: 2rem;
+  background-color: rgb(0, 170, 255);
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.reply-box-footer i {
+  font-size: 2rem;
+  color:rgb(0, 170, 255);
+}

@@ -1,0 +1,18 @@
+.nombre-sitio {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+  
+.logo-twitter {
+    height: 5rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}

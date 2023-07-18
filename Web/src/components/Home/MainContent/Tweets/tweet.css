@@ -1,0 +1,172 @@
+.tweet {
+  color: #e7e9ea;
+  background: #000000;
+  border-bottom: #505050 solid 1px;
+  max-width: 600px;
+  width: 600%;
+  padding: 16px;
+  font-family: TwitterChirp;
+  font-size: 14px;
+  display: flex;
+  overflow: hidden;
+}
+
+/* ---- PROFILE IMAGE ---- */
+
+
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border: solid 1px rgb(59, 59, 59);
+}
+
+/* --- MAIN CONTAINER --- */
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  color: #e7e9ea;
+}
+
+/* ------- HEADER ------ */
+
+.header-container {
+  display: inline-block;
+}
+
+.tweet__sign {
+  display: inline-block;
+  margin-right: 7px;
+  color: #e7e9ea;
+  margin-bottom: 6px;
+}
+
+.tweet__header {
+  display: flex;
+}
+
+/* -------- BODY ------- */
+
+.tweet__body {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.tweet__img {
+  margin-top: 15px;
+  width: auto;
+  height: auto;
+  border: solid 1px #505050;
+  border-radius: 15px;
+  max-height: 510px;
+  max-width: 500px;
+}
+
+/* ------- PARENT ------ */
+
+.parent-user-img {
+  height: 21px;
+  margin-right: 8px;
+  border: solid 1px rgb(71, 71, 71);
+  border-radius: 50px;
+}
+
+.parent-tweet {
+  padding: 15px;
+  padding-top: 1.5rem;
+  margin-bottom: 1.3rem;
+  width: 500px;
+  border-radius: 10px;
+  border: solid 1px rgb(71, 71, 71);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.parent-body {
+  display: flex;
+  margin-top: 15px;
+}
+
+.parent-body-img {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 15px;
+  margin-right: 12px;
+}
+
+.parent-header {
+  display: flex;
+}
+
+/* ------- FOOTER ------ */
+
+.tweet__footer {
+  bottom: 100px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem; /* Ajusta el valor según el espacio deseado */
+}
+
+.tweet__stats {
+  display: inline-block;
+  width: 70px;
+  margin-left: 3px;
+}
+
+.tweet__sign--bold {
+  font-weight: bold;
+}
+
+.tweet__sign--light {
+  color: #71767b;
+}
+
+.home {
+  margin-top: 15px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.tweet__liked {
+  color: #f91880;
+}
+
+.retweet {
+  color: rgba(1, 183, 123, 0.7); /* Color más suave con opacidad 0.7 */
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.replies {
+  color: rgba(0, 125, 228, 0.7); /* Color más suave con opacidad 0.7*/
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.like {
+  display: inline-block;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.retweet {
+  display: inline-block;
+}
+
+.replies {
+  display: inline-block;
+}
+
+.like:hover {
+  background-color: rgb(0, 153, 255, 0.4);
+}

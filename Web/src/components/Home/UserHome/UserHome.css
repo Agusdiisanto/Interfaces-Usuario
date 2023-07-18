@@ -1,0 +1,37 @@
+.contenedor-noSigues{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+}
+  
+.contenedor-noSigues h1{
+    padding: 10rem;
+    font-size: 3rem;
+}
+  
+.contenedor-noSigues h3{
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+.home{
+    color: #00aaff;  /* E7E9EA */
+}
+  
+.iconos{
+    color: #00aaff;  /* E7E9EA */
+    padding: 16px 10px;
+    display: flow-root;
+    transition: all 0.2s ease-in-out;
+    border-radius: 30px;
+    font-weight: bold;
+}
+  
+.home h1{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+  

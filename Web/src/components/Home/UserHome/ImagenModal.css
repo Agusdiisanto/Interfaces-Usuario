@@ -1,0 +1,75 @@
+.modal-contenedor {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36,45,52,0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.modal-imagen {
+  position: fixed;
+  margin: 0 auto;
+  top: 20%;
+  right: 41%;
+  padding: 4rem;
+  margin-bottom: 1.3rem;
+  border-radius: 10px;
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0, 153, 255);
+}
+  
+.modal-imagen h1{
+  color: rgb(255, 255, 255); /* Agregado para que el texto sea visible */
+
+}
+
+.modal-imagen span{
+  color: rgb(255, 255, 255); /* Agregado para que el texto sea visible */
+}
+
+.comentar input[type="url"] {
+  background-color: transparent !important;
+  padding: 1rem;
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: none;
+  border: none !important;
+  color: white;
+}
+  
+.comentar input[type="url"]::placeholder {
+  font-size: 1.5rem;
+  color: rgb(0, 145, 255); /* Agregado para que el texto del placeholder sea visible */
+}
+  
+.comentar button {
+  text-align: center;
+  border: none !important;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background-color: rgb(0, 170, 255);
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+  
+.icon-cerrar{
+  font-size: 1.5rem;
+  color: rgb(0, 170, 255);
+}

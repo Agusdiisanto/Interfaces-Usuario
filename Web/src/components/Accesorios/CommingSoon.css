@@ -1,0 +1,25 @@
+.comming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+  
+.comming-soon h1 {
+    font-size: 32px;
+    color: #ff8800; 
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+  
+.comming-soon p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+  
+  
+  

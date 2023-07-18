@@ -1,0 +1,33 @@
+.stats{
+  display: flex;
+  align-items: center;
+  color: #71767b;
+  border-radius: 5rem;
+}
+
+.stats i {
+  margin-right: 5px;
+  padding: 6px 6px 4px 5px;
+}
+
+.stats_like:hover {
+  background-color:rgba(106, 0, 0, 0.5);
+  color: #f91880;
+}
+
+.stats_retweet:hover {
+  background-color:rgba(0, 116, 77, 0.5);
+  color: rgb(0, 193, 129);
+}
+
+.no-pointer{
+  cursor: auto !important;
+}
+
+.stats_reply:hover {
+  background-color: rgba(0, 69, 125, 0.5);
+  color: rgb(0, 134, 243);
+}
+
+
+

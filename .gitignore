@@ -1,0 +1,6 @@
+#Ignored items
+*.iml
+target/
+.idea/
+node_modules/
+*.log

@@ -1,0 +1,32 @@
+.register-login {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    gap: 13rem;
+}
+
+.contenedor {
+    min-height: 100vh;
+}
+
+.register-login h3 {
+    color:white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+  
+.register-login p {
+    color:white;
+    text-align: center;
+    font-size: 1.35rem;
+}
+  
+
+  
+.titulo-login {
+    color:rgb(0, 153, 255);
+    width: 700;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}

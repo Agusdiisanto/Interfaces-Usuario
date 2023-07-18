@@ -1,0 +1,140 @@
+.twitter-box {
+  display: flex;
+  border-top: #505050 solid 1px;
+  border-bottom: #505050 solid 1px;
+}
+
+.twitter-box img {
+  margin: 16px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  max-height: 510px;
+}
+
+.twittear {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.new-tweet-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 96%;
+  /* border: red solid 1px; */
+}
+
+.new-tweet-icons {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.new-tweet-icons i {
+  padding: 5px 5px;
+}
+
+.new-tweet-icons i:hover {
+  background-color: rgb(0, 153, 255, 0.4);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.new-tweet-icons i:first-child {
+  margin-right: 1.5rem;
+}
+
+.twittear textarea {
+  color: #e7e9ea;
+  font-size: 20px;
+  background-color: transparent !important;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: none;
+  width: 500px;
+  resize: none;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: row;
+  color: #00aaff;
+  width: 500px;
+  border-bottom: #6c6c6c solid 1px;
+}
+
+.informacion i {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+.informacion p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: 3px 2px;
+}
+
+.informacion p:hover {
+  background-color: rgb(0, 153, 255, 0.2);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.button-twittear {
+  background-color: #00aaff;
+  transition: opacity 0.3s ease;
+  height: 36px;
+  width: 78px;
+  border: none;
+  margin: 1rem;
+  padding: 1px 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+
+.button-twittear:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.aviso{
+  background-color: aliceblue;
+  font-weight: 700;
+  border-radius: 3rem;
+  padding: 1rem 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 15px rgba(0, 153, 255);
+}
+
+.click-here{
+  display: inline-block;
+  color: #006bc2;
+  font-size: 1.5rem;
+  background: none ;
+  padding: 0;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.aviso h2{
+  font-size: 1.4rem;
+}
+
+.aviso h3 {
+  font-size: 1.2rem;
+  margin-top: 6px;
+}
+
+.error-mensaje {
+  color: red;
+}

@@ -1,0 +1,42 @@
+.nav-user-container {
+  width: 100%;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.nav-user {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.nav-user:hover {
+  background-color: rgb(43, 43, 43);
+  
+}
+
+.nav-user img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+}
+
+.nav-username {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-username-bold {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.nav-username-light {
+  color: #71767b;
+}
